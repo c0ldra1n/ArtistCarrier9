@@ -1,0 +1,11 @@
+Package: com.c0ldra1n.artistcarrier9
+Name: ArtistCarrier9
+Depends: mobilesubstrate
+Version: 0.0.8
+Architecture: iphoneos-arm
+Description: Change your carrier text to now-playing artist name!
+Maintainer: c0ldra1n
+Author: c0ldra1n
+Section: Tweaks
+Icon: http://c0ldra1n.github.io/repo/resources/icons/com.c0ldra1n.artistcarrier9.png
+Depiction: http://c0ldra1n.github.io/repo/depic/com.c0ldra1n.artistcarrier9.html

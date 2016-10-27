@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSStaticTextCell</string>
+			<key>cellClass</key>
+			<string>PFHeaderCell</string>
+			<key>background</key>
+			<string>#FFFFFF</string>
+			<key>image</key>
+			<string>/Library/PreferenceBundles/ArtistCarrier9.bundle/ArtistCarrier_header.png</string>
+			<key>height</key>
+			<integer>100</integer>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Custom Carrier Text</string>
+			<key>footerText</key>
+			<string>Text to display when no track is playing</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>defaults</key>
+			<string>com.c0ldra1n.artistcarrier9-preferences</string>
+			<key>key</key>
+			<string>ACNAText</string>
+			<key>label</key>
+			<string>Custom Text</string>
+			<key>PostNotification</key>
+			<string>com.c0ldra1n.artistcarrier9-preferences/settingschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Save</string>
+			<key>action</key>
+			<string>save</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring (Apply)</string>
+			<key>action</key>
+			<string>respring</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>ArtistCarrier9</string>
+</dict>
+</plist>
